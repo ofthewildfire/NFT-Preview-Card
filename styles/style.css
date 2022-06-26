@@ -1,0 +1,125 @@
+/* styles already present 
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}*/
+
+/* my code */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.card {
+
+    height: 540px;
+    width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.main-card-img {
+    background-color: hsl(178, 100%, 50%);
+    max-width: 85%;
+    max-height: 85%;
+    margin: 24px 24px;
+    border-radius: 10px;
+}
+
+.nft-info-blurb {
+    margin-left: 30px;
+    color: white;
+    margin-top: -15px;
+}
+
+.light-blue-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.nft-info-slot {
+    margin-left: 30px;
+}
+
+
+.clock {
+    float: right;
+    margin-right: 20px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.line {
+    margin-top: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-right: 20px;
+}
+
+.clock-icon {
+    top: 3px;
+    position: relative;
+    padding-right: 2px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.eth-icon {
+    top: 3px;
+    position: relative;
+    padding-right: 3px;
+}
+
+.avatar {
+    display: inline;
+    height: 10%;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 15px 0px 20px 30px;
+}
+
+.creationof {
+    position: relative;
+    bottom: 30px;
+    padding-right: 6px;
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.posted {
+    position: relative;
+    bottom: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+
+/* active states */
+
+.user-tag:hover,
+.posted:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.main-card-img:hover {
+    opacity: .5;
+}
